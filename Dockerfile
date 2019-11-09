@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM arm32v7/alpine:3.10
 
 # Testing: pamtester
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories && \
